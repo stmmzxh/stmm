@@ -63,7 +63,7 @@
 z-index: 2000;}
 
 .hn-smtlf-s2-loop {
-  width: 34%;
+  width: 500px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 95px; }
@@ -91,9 +91,9 @@ z-index: 2000;}
 
 .hn-smtlf-s2-btm-inf-mid {
   position: absolute;
-  width: 696px;
+  width: 90%;
   left: 50%;
-  margin-left: -348px;
+  margin-left: -45%;
   bottom: 110px;
   text-align: center; }
 
@@ -112,7 +112,9 @@ z-index: 2000;}
   color: #fff;
   font-size: 18px;
   margin-top: 24px;
-  margin-bottom: 24px; }
+  margin-bottom: 24px; 
+  line-height: 30px;
+}
 
 .hn-smtlf-s2-btm-inf-p1,
 .hn-smtlf-s2-btm-inf-p2 {

@@ -111,6 +111,11 @@
 	    left: 50%  !important;
 	    margin-left: -45%  !important;
 	}
+	.hn-smtlf-s2-loop {
+		  width: 34%;
+		  margin-left: auto;
+		  margin-right: auto;
+		  margin-top: 95px; }
 	/*头部隐藏*/
 	.content.logo-nav{
 		display: none;
@@ -119,7 +124,7 @@
 		position: absolute;
 		left: 0;
 		top: 20px;
-		z-index: 2000;
+		z-index: 4000;
 		width: 100%;
 	}
 	.content.logo-nav-yd .yd-icon{
