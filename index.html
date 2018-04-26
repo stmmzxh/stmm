@@ -226,18 +226,18 @@
                 </div>
             </div>
         </header>
-        <section class="top-box">
+        <div class="top-box">
             <img class="top" src="images/top.png">
-        </section>
+        </div>
         <section id="services">
             <div class="container">
                 <div class="heading wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms">
                     <div class="row">
-                        <div class="text-center col-sm-8 col-sm-offset-2">
+                        <div class="text-center col-sm-12">
                             <h2>
                                 公司资质
                             </h2>
-                            <p style="font-size: 16px;">
+                            <p style="font-size: 16px;line-height: 28px">
                                 山东省认定的高新技术企业、双软认证企业，<br>具备国家四级计算机系统集成资质、安防工程企业资质和ISO9001质量体系认证、ISO27001安全信息管理体系。
                             </p>
                         </div>
@@ -350,7 +350,7 @@
         <section id="portfolio">
             <div class="container">
                 <div class="row">
-                    <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms">
+                    <div class="heading text-center col-sm-12 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms">
                         <h2>
                             成功案例
                         </h2>
@@ -614,7 +614,7 @@
         <section id="team">
             <div class="container">
                 <div class="row">
-                    <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1200ms">
+                    <div class="heading text-center col-sm-12 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1200ms">
                         <h2>
                             自有产品
                         </h2>
@@ -720,11 +720,11 @@
         <section id="blog">
             <div class="container">
                 <div class="row">
-                    <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1200ms">
+                    <div class="heading text-center col-sm-12 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1200ms">
                         <h2>
                             公司活动
                         </h2>
-                        <p style="font-size: 16px;">
+                        <p style="font-size: 16px;line-height: 28px;">
                             人的一生中，总是会遇到这样那样的故事，或是精彩，或是温暖，也可是狗血和滑稽。<br>
                             茫茫人海，幸运中，我遇到了你——Neo Beacon!
                         </p>
@@ -906,7 +906,7 @@
             <div class="parallax" id="contact-us">
                 <div class="container">
                     <div class="row">
-                        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms">
+                        <div class="heading text-center col-sm-12 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms">
                             <h2>
                                 联系我们
                             </h2>
@@ -1002,7 +1002,7 @@
         <section id="blog" style="overflow: hidden;padding-bottom: 50px;">
             <div class="container">
                 <div class="row">
-                    <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1200ms" style="padding-bottom: 50px;">
+                    <div class="heading text-center col-sm-12 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1200ms" style="padding-bottom: 50px;">
                         <h2>
                             合作伙伴
                         </h2>
@@ -1282,24 +1282,20 @@
             var popup = new auiPopup();
             function showPopup(location){
                 popup.init({
-                    frameBounces:true,//当前页面是否弹动，（主要针对安卓端）
+                    frameBounces:false,//当前页面是否弹动，（主要针对安卓端）
                     location:location,//位置，top(默认：顶部中间),top-left top-right,bottom,bottom-left,bottom-right
                     buttons:[{
                         image:'images/dianji.png',
-                        text:'首页',
-                        value:'wx'//可选
+                        text:'首页'
                     },{
                         image:'images/dianji.png',
-                        text:'公司资质',
-                        value:'wx-circle'
+                        text:'公司资质'
                     },{
                         image:'images/dianji.png',
-                        text:'关于我们',
-                        value:'qq'
+                        text:'关于我们'
                     },{
                         image:'images/dianji.png',
-                        text:'成功案例',
-                        value:'qq-qzone'
+                        text:'成功案例'
                     },{
                         image:'images/dianji.png',
                         text:'自有产品'
